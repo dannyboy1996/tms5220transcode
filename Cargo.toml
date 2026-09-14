@@ -1,0 +1,11 @@
+[package]
+name = "tms5220transcode"
+version = "0.1.0"
+edition = "2024"
+description = "Encode audio to a TMS5220 LPC bitstream and decode it back to WAV"
+
+[dependencies]
+speakie = { path = "speakie/speakie" }
+clap = { version = "4.5.51", features = ["derive"] }
+hound = "3.5.1"
+iir_filters = "0.1.3"
