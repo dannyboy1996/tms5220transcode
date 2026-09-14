@@ -14,5 +14,6 @@ git clone https://github.com/raphlinus/speakie.git
 To build, make sure your current directory is this repo and type
 ```cmd
 cargo build --release
+```
 ## using
 If no argument is specified, it will print the usage
