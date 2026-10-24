@@ -3,8 +3,8 @@ Tms5220transcoder is a command-line utility that converts wav audio files into T
 ##  build requirements
 The following requirements MUST be met before building this project:
 - Rust: The latest stable release of the rust toolchain must be installed and made available in the system's path. 
-- Speakie: The speakie repository must be cloned  locally and made available as the project's Primary dependancy.
-Platform compatability: The project has been tested  has been tested on Microsoft Windows 11. Compatability with other operating systems has not been verified and cannot be guarantied to function optimally. 
+- Speakie: The speakie repository must be cloned  locally and made available as the project's Primary dependency.
+Platform compatobility: The project has been tested  on Microsoft Windows 11, and Linux (Ubuntu 24.04.5 LTS) Compatibility with mac systems has not been verified and cannot be guarantied to function optimally. 
 ### dependancy setup
 This project depends on [speakie](https://github.com/raphlinus/speakie), Developed by Raph Linux.
 the Speakie repository is not included in this project's source repository. It must be obtained separately before building.
